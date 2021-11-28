@@ -496,7 +496,6 @@ align-items: center;
   width: 44px;
   height: 44px;
   margin-left: 10px;
-
 }
 
 .team-icon:first-child {
@@ -557,6 +556,12 @@ margin-left: 0;
   color: var(--clients-link-color);
 }
 
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--hover-color);
+  color: var(--hover-color);
+}
+
 .clients-icon {
   width: 106px;
   height: 60px;
@@ -569,6 +574,25 @@ margin-left: 0;
   background: var(--main-site-section);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-address {
+  margin-right: 70px;
+}
+
+.followus {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--contrast-color);
+  margin-bottom: 20px;
 }
 
 .logo-footer {
