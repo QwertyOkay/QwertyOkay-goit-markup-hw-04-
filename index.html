@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
     <header class="header">
         <div class="container header-container">
         <nav class="header-navigation">
@@ -26,8 +27,21 @@
         </nav>
         <div class="header-right">
         <ul class="header-contacts-list list">
-            <li class="header-contacts"><a class="contacts-link link" href="tel:+38044111111">+380441111111</a></li>
-            <li class="header-contacts"><a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="header-contacts">
+                <a class="contacts-link link" 
+                    href="mailto:info@devstudio.com">
+                <svg class="icon header-mail-icon icon-contact"
+                    width="16"
+                    height="16"><use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
+                                        </li>
+            
+            <li class="header-contacts">
+                <a class="contacts-link link" 
+                   href="tel:+38044111111">
+                <svg class="icon header-phone-icon icon-contact"
+                     width="16"
+                     height="16"><use href="./images/icons.svg#icon-smartphone"></use></svg>+380441111111</a>
+                </li>
         </ul>
         </div>
         </div>
@@ -46,21 +60,41 @@
         <h2 hidden>О нас</h2>
             <ul class="hero-list list">
           <li class="hero-item">
+              <div class="hero-icon">
+                  <svg class="icon hero-li-icon" 
+                  aria-label="антена" 
+                  width="70px" height="70px"><use href="./images/icons.svg#icon-antenna"></use></svg>
+            </div>
             <h3 class="hero-title">Внимание к деталям</h3>
             <p class="hero-after-title">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
 
         <li class="hero-item">
+            <div class="hero-icon">
+                <svg class="icon hero-li-icon" 
+                aria-label="часы" 
+                width="70px" height="70px"><use href="./images/icons.svg#icon-clock"></use></svg>     
+            </div>
             <h3 class="hero-title">Пунктуальность</h3>
             <p class="hero-after-title">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
 
         <li class="hero-item">
+            <div class="hero-icon">
+                <svg class="icon hero-li-icon" 
+                aria-label="диаграмма" 
+                width="70px" height="70px"><use href="./images/icons.svg#icon-diagram"></use></svg>  
+            </div>
             <h3 class="hero-title">Планирование</h3>
             <p class="hero-after-title">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
         
         <li class="hero-item">
+            <div class="hero-icon">
+                <svg class="icon hero-li-icon" 
+                aria-label="космонавт" 
+                width="70px" height="70px"><use href="./images/icons.svg#icon-astronaut"></use></svg>
+            </div>
             <h3 class="hero-title">Современные технологии</h3>
             <p class="hero-after-title">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
@@ -88,6 +122,18 @@
                 <div class="ourteam-content">
                     <h3 class="ourteam-title">Игорь Демьяненко</h3>
                 <p class="ourteam-after-title" lang="en">Product Designer</p>
+                <ul class="team-icon-list list">
+                    <li class="team-icon">
+                        <a href="" class="team-links">
+                        <svg class="icon team-icon">
+                        <use href="./images/icons.svg#icon-instagram" 
+                        width="20px" height="20px">
+                    </use></svg></a>
+                    </li>
+                    <li class="team-icon"></li>
+                    <li class="team-icon"></li>
+                    <li class="team-icon"></li>
+                </ul>
                 </div>
                 </li>
 

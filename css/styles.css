@@ -12,6 +12,7 @@
   --card-set-gap: 30px;
   --card-shadow: 0px 2px 1px -1px rgba (0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    --social-link-color: #AFB1B8;
 }
 
 html {
@@ -33,6 +34,8 @@ h6 {
   list-style: none;
   padding: 0;
   margin: 0;
+  /* display: flex;
+  align-items: center; */
 }
 
 .link {
@@ -111,12 +114,18 @@ body {
 
 /*-----------HEADER-------------*/
 
+.icon {
+  display: inline-block;
+  fill: currentColor;
+}
+
 .header {
   border: 1px solid var(--border-header-color);
 }
 
 .header-contacts-list {
   display: flex;
+align-items: center;
 }
 
 .current {
@@ -135,6 +144,20 @@ body {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.header-contacts:hover {
+  color: var(--accent-color);
+}
+
+.header-phone-icon {
+  display: flex;
+  fill: currentColor;
+}
+
+.icon-contact {
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .header-link:hover,
@@ -316,7 +339,10 @@ body {
 }
 
 .main-site-section {
-  background-color: var(--main-site-section);
+  /* background-color: var(--main-site-section); */
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Imgbackground.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -346,6 +372,21 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
+}
+
+.hero-icon {
+width: 270px;
+height: 120px;
+background-color: var(--ourteam-section);
+margin-bottom: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hero-li-icon {
+  width: 70px;
+  height: 70px;
 }
 
 .about-us {
@@ -437,6 +478,32 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
+}
+
+.team-icon-list {
+  display: flex;
+  justify-content: center;
+  padding: 0 32px;
+}
+
+.team-icon {
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+}
+
+.team-icon:first-child {
+  margin-left: 0;
+}
+
+.team-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: var(--social-link-color);
 }
 
 /*----------FOOTER---------------*/
