@@ -16,6 +16,7 @@
     --clients-link-color: #AFB1B8;
     --hover-color: #2196f3;
     --contrast-color: #ffffff; 
+    --footer-social: #ffffff;
 }
 
 html {
@@ -593,6 +594,46 @@ margin-left: 0;
   text-transform: uppercase;
   color: var(--contrast-color);
   margin-bottom: 20px;
+}
+
+
+.footer-icon-item:first-child {
+  margin-left: 0;
+}
+
+.footer-icon-item {
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+}
+
+.footer-icon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-link-right:hover,
+.footer-link-right:focus {
+  border: 1px solid var(--hover-color);
+  color: var(--hover-color);
+  background-color: var(--hover-color);
+}
+
+.footer-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: var(--footer-social);
 }
 
 .logo-footer {
