@@ -121,8 +121,8 @@ body {
 .icon {
   display: inline-block;
   fill: currentColor;
-  width: 1em;
-  height: 1em;
+  /* width: 1em;
+  height: 1em; */
 }
 
 .header {
@@ -156,10 +156,10 @@ align-items: center;
   color: var(--accent-color);
 }
 
-.header-phone-icon {
+/* .header-phone-icon {
   display: flex;
   fill: currentColor;
-}
+} */
 
 .icon-contact {
   vertical-align: middle;
